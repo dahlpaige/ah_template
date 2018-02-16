@@ -14,7 +14,6 @@
             <div class="col-sm">
                 <div itemscope itemtype="http://schema.org/LocalBusiness">
                     <p itemprop="name">Ace in the Hole Multisports Events</p>
-                    <address itemprop="address">1234 Main Street<br>Hillsboro, OR 97123</address>
                     <p itemprop="telephone"><a href="tel:+15035555555">503-555-5555</a></p>
                 </div>
             </div>

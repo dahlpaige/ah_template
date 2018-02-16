@@ -24,7 +24,7 @@ img {
 /* ----- Header ----- */
 
 header {
-	border-bottom: 1px solid @color1;
+	border-bottom: 1px solid @color2;
 	padding-top: 25px;
 	h1 {
 		text-align: center;
@@ -32,7 +32,7 @@ header {
 		2.1em);
 	}
 	.navbar {
-		background-color: @color3;
+		background-color: @color1;
 		text-transform: uppercase;
 		ul {
 			li {
@@ -41,14 +41,14 @@ header {
 			}
 		}
 		a {
-			color: @color5;
+			color: white;
 			font-weight: bold;
 			&:visited {
 				color: white;
 			}
 			&:hover {
 				color: white;
-				background-color: @color2;
+				background-color: @color3;
 				border-radius: 8px;
 			}
 		}
@@ -86,14 +86,14 @@ section {
 
 footer {
 	.containerFluid();
-	border-top: 1px solid @color1;
+	border-top: 1px solid @color2;
 	padding-bottom: 25px;
 	h4 {
 		padding-top: 15px;
 		padding-bottom: 15px;
 		text-align: center;
-		background-color: @color3;
-		color: @color5;
+		background-color: @color1;
+		color: white; 
 		width: 100%;
 	}
 	.col-sm-4 {
@@ -101,9 +101,6 @@ footer {
 	}
 	p {
 		.autoMargins();
-		font-weight: bold;
-	}
-	address {
 		font-weight: bold;
 	}
 	a {

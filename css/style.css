@@ -16,7 +16,7 @@ img {
 }
 /* ----- Header ----- */
 header {
-  border-bottom: 1px solid #ff0000;
+  border-bottom: 1px solid #a21616;
   padding-top: 25px;
 }
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
   font-family: 'Lato', sans-serif;
 }
 header .navbar {
-  background-color: #bf2e2e;
+  background-color: #ff0000;
   text-transform: uppercase;
 }
 header .navbar ul li {
@@ -35,7 +35,7 @@ header .navbar ul li {
   text-align: center;
 }
 header .navbar a {
-  color: #dbdbdb;
+  color: white;
   font-weight: bold;
 }
 header .navbar a:visited {
@@ -43,7 +43,7 @@ header .navbar a:visited {
 }
 header .navbar a:hover {
   color: white;
-  background-color: #a21616;
+  background-color: #e00000;
   border-radius: 8px;
 }
 /* ----- Section ----- */
@@ -85,15 +85,15 @@ footer {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  border-top: 1px solid #ff0000;
+  border-top: 1px solid #a21616;
   padding-bottom: 25px;
 }
 footer h4 {
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
-  background-color: #bf2e2e;
-  color: #dbdbdb;
+  background-color: #ff0000;
+  color: white;
   width: 100%;
 }
 footer .col-sm-4 {
@@ -102,9 +102,6 @@ footer .col-sm-4 {
 footer p {
   margin-left: auto;
   margin-right: auto;
-  font-weight: bold;
-}
-footer address {
   font-weight: bold;
 }
 footer a {
